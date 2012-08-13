@@ -17,4 +17,4 @@ EMAIL_SMTP = 'smtp.gmail.com:587'
 LOG_PATH = "log/log.log"
 
 #Lista de urls para testar
-URLLIST = ["http://www.python.org/", "http://plone.org/", "http://www.fioasdfasdfsa.com"]
+URLLIST = ["http://www.python.org/", "http://plone.org/"]
