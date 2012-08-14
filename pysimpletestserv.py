@@ -45,6 +45,8 @@ def testServ():
         try:
             req = Request(url)
             urlopen(req)
+            msg = "OK - %s" % (url)
+            writeLog(msg)
         except URLError, e:
             errorTitle = "%s SERVIDOR = %s" % (e.reason[1], url)
             writeLog(errorTitle, False)
